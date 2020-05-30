@@ -1,0 +1,98 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+ul
+{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;	
+
+}
+
+li
+{	
+	
+	background: white;
+	line-height: 3em;
+
+
+
+}
+#add
+{
+	padding-right: 5px;
+	float: right;
+}
+h2
+{
+	padding-left: 15px;
+	color: white;
+	margin: 0px;
+	padding-top:20px; 
+	padding-bottom: 20px;
+	background: #2980b9;
+
+}
+input
+{	padding-left: 9px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    font-size: 18px;
+}
+li:nth-child(2n+1)
+{
+	background: #dddd;
+}
+.linethroughclass
+{
+	text-decoration: line-through;
+	color: grey;
+}
+.container 
+{	width: 300px;/*both of these properties*/ 
+	
+				/*compliments each other*/
+	margin:0 auto;/*margin auto manges itself according*/
+				/*to width and aligns content in center*/
+				/*of the page*/
+	border:0px solid black;
+	margin-top: 100px;
+	background: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+body
+{
+	background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+li span
+{
+	color: white;
+	background:rgb(255, 93, 69);
+	width: 0px;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+
+}
+li:hover span
+{
+	opacity:1;	
+	width: 20px;
+	
+	padding-left: 5px;
+	padding-right: 5px;
+
+	
+}
+
+.visibilityclass
+{	padding-right:  7px;
+	padding-left: 7px;
+	visibility: visible;
+}
